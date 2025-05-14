@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bhive/static/css/main.e397ba6f.css",
-    "main.js": "/bhive/static/js/main.ffb87e82.js",
-    "static/js/764.c686497e.chunk.js": "/bhive/static/js/764.c686497e.chunk.js",
+    "main.js": "/bhive/static/js/main.fe4a1049.js",
+    "static/js/764.9e9020bf.chunk.js": "/bhive/static/js/764.9e9020bf.chunk.js",
     "static/js/213.937dd739.chunk.js": "/bhive/static/js/213.937dd739.chunk.js",
     "static/media/space.jpg": "/bhive/static/media/space.72f6b8235f776b2e5d1f.jpg",
     "static/media/coworking.png": "/bhive/static/media/coworking.5bf207db2b911d27f4b9.png",
@@ -22,12 +22,12 @@
     "static/media/bg-banner-right.svg": "/bhive/static/media/bg-banner-right.3252af57c0ca0905ad94c1652b58b4d9.svg",
     "static/media/Arrow.svg": "/bhive/static/media/Arrow.5ec2882eb1eefac152dfca6e61ff449b.svg",
     "main.e397ba6f.css.map": "/bhive/static/css/main.e397ba6f.css.map",
-    "main.ffb87e82.js.map": "/bhive/static/js/main.ffb87e82.js.map",
-    "764.c686497e.chunk.js.map": "/bhive/static/js/764.c686497e.chunk.js.map",
+    "main.fe4a1049.js.map": "/bhive/static/js/main.fe4a1049.js.map",
+    "764.9e9020bf.chunk.js.map": "/bhive/static/js/764.9e9020bf.chunk.js.map",
     "213.937dd739.chunk.js.map": "/bhive/static/js/213.937dd739.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e397ba6f.css",
-    "static/js/main.ffb87e82.js"
+    "static/js/main.fe4a1049.js"
   ]
 }
