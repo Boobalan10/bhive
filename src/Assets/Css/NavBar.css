@@ -1,0 +1,37 @@
+.workspace-site .call-icon img {
+    border: 1px solid var(--primeClr);
+    border-radius: 4px;
+    padding: 8px;
+    width: 85%;
+}
+
+.workspace-site .nav-sec {
+    background-color: var(--whiteClr);
+    padding: 15px 0px;
+    position: relative;
+    z-index: 99;
+}
+
+.workspace-site .footer {
+    background-color: var(--greenShadow);
+    text-align: center;
+    padding: 6px;
+    margin-top: 20px;
+}
+
+.workspace-site .footer p,
+.workspace-site .footer a {
+    color: var(--graySix);
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+
+.workspace-site .footer a:hover {
+    color: var(--primeClr);
+    text-decoration: none;
+}
+
+.workspace-site .nav-sec {
+    width: 100%;
+    z-index: 999;
+}

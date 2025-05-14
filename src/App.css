@@ -1,0 +1,254 @@
+/* Color Code setup for the site */
+:root {
+  --primeClr: #F2B304;
+  --primeClrTwo: #FFCF4B;
+  --primeClrThree: #FFC422;
+  --mainClr: #263238;
+  --lightMainClr: rgba(38, 50, 56, 0.5);
+  --blackClr: #000;
+  --lightBlack: rgba(0, 0, 0, 0.06);
+  --whiteClr: #fff;
+  --creamWhite: #FFFDF7;
+  --lightGray: #f9faff;
+  --grayTwo: #E0E0E0;
+  --grayThree: #F9F9F9;
+  --grayFour: #EEE7E7;
+  --grayFive: #605F5F;
+  --graySix: #DDDDDD;
+  --lightGreen: #65624C;
+  --darkGreen: #514D2D;
+  --greenShadow: #222E34;
+}
+
+/* Custom Font Family Import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* Common CSS across the site */
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body.bhive {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--lightGray);
+}
+
+/* Custom CSS Files */
+@import url('./Assets/Css/NavBar.css');
+@import url('./Assets/Css/Banner.css');
+@import url('./Assets/Css/FacilityCard.css');
+@import url('./Assets/Css/SpaceCard.css');
+@import url('./Assets/Css/DownloadSection.css');
+
+
+.workspace-site .custom-container {
+  /* Container Takes much space on left and right As per the design used custom spacing */
+  padding: 0% 8%;
+}
+
+.workspace-site h1 {
+  font-size: 58px;
+}
+
+.workspace-site h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.workspace-site h4 {
+  font-size: 20px;
+}
+
+.workspace-site h1,
+.workspace-site h2 {
+  color: var(--mainClr);
+  font-weight: 700;
+}
+
+.workspace-site h4 {
+  color: var(--mainClr);
+}
+
+.workspace-site .common-top-space {
+  margin-top: 6%;
+}
+
+@media screen and (min-width: 995px) and (max-width: 1400px) {
+  .workspace-site h1 {
+    font-size: 45px;
+  }
+
+  .workspace-site h2 {
+    font-size: 32px;
+  }
+
+  .workspace-site .bg-diamond img {
+    width: 88px;
+  }
+
+  .workspace-site .card-bottom .amount-sec {
+    gap: 5px;
+  }
+
+  .workspace-site .right-content i,
+  .workspace-site .left-content p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .workspace-site .bg-diamond img {
+    display: none;
+  }
+
+  .workspace-site .bg-diamond h1 {
+    padding: 5% 8%;
+  }
+
+  .workspace-site h1 {
+    font-size: 35px;
+  }
+
+  .workspace-site h2 {
+    font-size: 30px;
+  }
+
+  .workspace-site .box-sec {
+    border-bottom: 0px;
+    border-right: 0px;
+    background-color: var(--whiteClr);
+    box-shadow: 0px 2px 4px var(--lightBlack);
+    justify-content: center;
+    border-radius: 6px;
+  }
+
+  .workspace-site .faciality-sec {
+    margin: 0px 10px 20px 0px;
+  }
+
+  .workspace-site .download-right p {
+    margin-bottom: 18px;
+  }
+
+  .workspace-site .store-buttons img {
+    width: 100%;
+  }
+
+  .workspace-site .download-left img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .workspace-site h1 {
+    font-size: 22px;
+  }
+
+  .workspace-site h2 {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .workspace-site h2 img {
+    width: 30px;
+  }
+
+  .workspace-site .box-sec {
+    flex-direction: column;
+  }
+
+  .workspace-site .download-left img {
+    margin-top: 0%;
+    padding: 40px 30px 20px;
+  }
+
+  .workspace-site .store-buttons {
+    justify-content: center;
+  }
+
+  .workspace-site .download-left img {
+    background-image: url('./Assets/Images/download-bg.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 100% 85%;
+  }
+
+  .workspace-site .download-section {
+    padding-left: 0px;
+  }
+
+  .workspace-site .footer {
+    padding: 10px;
+  }
+
+  .workspace-site .right-content i,
+  .workspace-site .left-content p {
+    font-size: 14px;
+  }
+
+  .workspace-site h4 {
+    font-size: 18px;
+  }
+
+  .workspace-sitec .card-bottom .amount-sec {
+    gap: 6px;
+  }
+
+  .workspace-site .custom-container {
+    padding: 0% 6%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .workspace-site h1 {
+    font-size: 20px;
+  }
+
+  .workspace-site .box-sec {
+    padding: 10px 5px;
+  }
+
+  .workspace-site .box-sec p {
+    font-size: 14px;
+  }
+
+  .workspace-site .box-sec img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .workspace-site .footer p {
+    font-size: 12px;
+  }
+
+  .workspace-site .right-content i,
+  .workspace-site .left-content p {
+    font-size: 12px;
+  }
+
+  .workspace-site h4 {
+    font-size: 16px;
+  }
+
+  .workspace-site .card-bottom .amount-sec {
+    gap: 4px;
+  }
+
+  .workspace-site .pass-card {
+    padding: 8px 7px;
+  }
+
+  .workspace-site .distance-sec {
+    padding: 2px 10px;
+  }
+
+  .workspace-site .distance-sec img {
+    width: 18px;
+  }
+}

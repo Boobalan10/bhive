@@ -1,0 +1,120 @@
+.workspace-site .card-sec {
+    background-color: var(--whiteClr);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 1.08px 10px var(--lightBlack);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    cursor: pointer;
+}
+
+.workspace-site .card-middle {
+    height: 100%;
+}
+
+.workspace-site .card-top {
+    margin-bottom: 12px;
+}
+
+.workspace-site .card-middle img {
+    width: 100%;
+    border-radius: 6px;
+    height: 100%;
+}
+
+.workspace-site .distance-sec {
+    padding: 5px 15px;
+    border-radius: 6px;
+    background-color: var(--grayThree);
+    border: 0.5px solid var(--grayFour);
+}
+
+.workspace-site .distance-sec img {
+    display: block;
+    margin: auto;
+    width: 20px;
+}
+
+.workspace-site .distance-sec small {
+    font-size: 10px;
+    color: var(--lightMainClr);
+    white-space: nowrap;
+}
+
+.workspace-site .left-content small {
+    font-size: 12px;
+    color: var(--mainClr);
+}
+
+.workspace-site .pass-gray {
+    background-color: var(--grayThree);
+    border: 0.5px solid var(--grayFour);
+}
+
+.workspace-site .pass-gray p {
+    color: var(--lightGreen);
+}
+
+.workspace-site .pass-yellow p {
+    color: var(--darkGreen);
+}
+
+.workspace-site .pass-yellow {
+    background-color: var(--primeClrTwo);
+    border: 0.5px solid var(--primeClrThree);
+    position: relative;
+}
+
+.workspace-site .left-content p {
+    margin-bottom: 5px;
+}
+
+.workspace-site .pass-card {
+    padding: 8px 15px;
+    border-radius: 6px;
+    flex-grow: 1;
+}
+
+.workspace-site .left-content h4 {
+    margin-bottom: 0px;
+    width: max-content;
+}
+
+.workspace-site .right-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.workspace-site .right-content i {
+    font-size: 20px;
+    opacity: 0.5;
+    font-weight: 600;
+    color: var(--mainClr);
+}
+
+.workspace-site .right-content i:last-child {
+    opacity: 1;
+}
+
+.workspace-site .card-bottom {
+    margin-top: 22px;
+}
+
+.workspace-site .card-bottom .amount-sec {
+    gap: 15px;
+    margin: 0px;
+}
+
+.workspace-site .discount-number {
+    background-color: var(--mainClr);
+    color: var(--creamWhite);
+    padding: 2px 15px;
+    font-size: 10px;
+    border-radius: 3px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
