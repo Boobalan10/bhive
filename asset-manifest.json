@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/bhive/static/css/main.e397ba6f.css",
+    "main.js": "/bhive/static/js/main.bff40728.js",
+    "static/js/764.c686497e.chunk.js": "/bhive/static/js/764.c686497e.chunk.js",
+    "static/js/213.937dd739.chunk.js": "/bhive/static/js/213.937dd739.chunk.js",
+    "static/media/space.jpg": "/bhive/static/media/space.72f6b8235f776b2e5d1f.jpg",
+    "static/media/coworking.png": "/bhive/static/media/coworking.5bf207db2b911d27f4b9.png",
+    "static/media/DownloadSection.png": "/bhive/static/media/DownloadSection.f2f4a71d863a18fd4988.png",
+    "static/media/bg-banner-left.png": "/bhive/static/media/bg-banner-left.e330ad8451372fccd063.png",
+    "static/media/comfort.svg": "/bhive/static/media/comfort.6f93dc35b73bcaaf5b7cf6f8208e3cff.svg",
+    "static/media/gym.svg": "/bhive/static/media/gym.35b70fbdf13cfe0b4baa6cace5cdc20c.svg",
+    "static/media/quick.svg": "/bhive/static/media/quick.a0fde58c675ef44f21c946e90fe24119.svg",
+    "static/media/direction.svg": "/bhive/static/media/direction.b6afb62e74542fa13f2ab8df96da9884.svg",
+    "static/media/cafe.svg": "/bhive/static/media/cafe.d5e831c4d17955235e67870dc85f975e.svg",
+    "static/media/sport.svg": "/bhive/static/media/sport.fbf66376f483ffed839e9a8095dfeb24.svg",
+    "static/media/wifi.svg": "/bhive/static/media/wifi.4405b6fd1784a82ab43a71f99d92fd41.svg",
+    "static/media/call.svg": "/bhive/static/media/call.902e49a9dc70bd1bf8acfcb09169597a.svg",
+    "static/media/afford.svg": "/bhive/static/media/afford.400fafe223656f6da1ad5424fb619d55.svg",
+    "index.html": "/bhive/index.html",
+    "static/media/community.svg": "/bhive/static/media/community.e3c5162b1b6532b480f96490728ba957.svg",
+    "static/media/bg-banner-right.svg": "/bhive/static/media/bg-banner-right.3252af57c0ca0905ad94c1652b58b4d9.svg",
+    "static/media/Arrow.svg": "/bhive/static/media/Arrow.5ec2882eb1eefac152dfca6e61ff449b.svg",
+    "main.e397ba6f.css.map": "/bhive/static/css/main.e397ba6f.css.map",
+    "main.bff40728.js.map": "/bhive/static/js/main.bff40728.js.map",
+    "764.c686497e.chunk.js.map": "/bhive/static/js/764.c686497e.chunk.js.map",
+    "213.937dd739.chunk.js.map": "/bhive/static/js/213.937dd739.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e397ba6f.css",
+    "static/js/main.bff40728.js"
+  ]
+}
